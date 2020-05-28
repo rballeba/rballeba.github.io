@@ -1,0 +1,85 @@
+﻿﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+
+<body>
+    <div class="container">
+        <div class="sticky-top alimentary-restrictions-header" id="top-area">
+            <div class="row align-items-center head-alimentary-restrictions" id="head-bar">
+                <div class="col-12">
+                    <table class="header-main">
+                        <tr>
+                            <td class="menu-cog">
+                                <span>
+                                    <a id="saveAndBackButton" href="Configuration.html" class="float-left btn btn-outline-primary">Back</a>
+                                </span>
+                            </td>
+                            <td class="search-restriction">
+                                <input id="restriction-search" class="form-control search" type="text" placeholder="Search restriction" aria-label="Search restriction">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="row align-items-center" id="foryou-title">
+                <div class="col-12 text-truncate">
+                    <h2 class="text-center">Alimentary restrictions</h2>
+                </div>
+            </div>
+        </div><!-- End sticky top-->
+        <div class="row align-items-center">
+            <div class="col-12">
+                <!-- To add new alimentary restrictions, create the corresponding files in img/alimentary-restrictions and alimentaryRestrictionsInformation
+                    (with the appropriate capitalization) and then add them to the data-restriction list below -->
+                <div class="list-group" id="restrictions-row" data-variable="restriction" data-values="Celery Celiac Crustaceans Egg Fish Lupin Milk Molluscs Mustard Nuts Peanut Sesame Soybeans Sulphur Vegan Vegetarian">
+                    <div data-name="${restriction}" class="toggle list-group-item list-group-item-action">
+                        <div class="row justify-content-center">
+                            <div class="col-10">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="./img/alimentary-restrictions/${restriction.toLowerCase()}.png" class="restriction-image" alt="${restriction}">
+                                    </div>
+                                    <div class="col-10">
+                                        ${restriction}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <a href="alimentaryRestrictionsInformation/${restriction}.html">
+                                    <img class="info-link" src="img/info.svg" alt="info" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span id="restriction-no-match">No items match your query.</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------Scripts loading ---------------------------- -->
+    <!-- JQuery and Popper imports-->
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <!-- Bootstrap javascript -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/commonFunctions.js" ></script> <!-- Common functions implemented on Javascript -->
+    <script src="./js/alimentary-restrictions.js" ></script>
+</body>
+
+</html>

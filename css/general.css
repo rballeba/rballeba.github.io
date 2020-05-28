@@ -1,0 +1,612 @@
+/** WARNING - USE AT OWN RISK */
+/** IT IS AGAINST APPLE'S POLICY TO USE SF PRO FOR ANYTHING OTHER THAN iOS/tvOS/macOS/watchOS DESIGN & DEVELOPMENT */
+/** https://sf.abarba.me/font.css */
+/** https://sf.abarba.me/LICENSE.pdf */
+
+/** 1. Copy/import this file into your main css/scss file */
+/** 2. Change css font-family: to "SF Text", "SF Display" or "SF Mono" */
+/** 3. Apply font-weight or italic to html elements */
+
+/** THANK YOU */
+/** I host these fonts on Cloudfront with SSL in all AWS regions for the best performance and reliability */
+/** If you'd like to help offset costs, I'd very much appreciate a donation via Lisk https://lisk.io */
+/** Address: 14987768355736502769L */
+/** Delegate: andrew */
+
+/*---------------------------------------------------------------------------*
+ * SF UI Display
+ *---------------------------------------------------------------------------*/
+
+/** Black */
+@font-face {
+    font-family: "SF Display";
+    font-weight: 900;
+    src: url("https://sf.abarba.me/SF-UI-Display-Black.otf");
+}
+
+/** Bold */
+@font-face {
+    font-family: "SF Display";
+    font-weight: 700;
+    src: url("https://sf.abarba.me/SF-UI-Display-Bold.otf");
+}
+
+/** Heavy */
+@font-face {
+    font-family: "SF Display";
+    font-weight: 800;
+    src: url("https://sf.abarba.me/SF-UI-Display-Heavy.otf");
+}
+
+/** Light */
+@font-face {
+    font-family: "SF Display";
+    font-weight: 200;
+    src: url("https://sf.abarba.me/SF-UI-Display-Light.otf");
+}
+
+/** Medium */
+@font-face {
+    font-family: "SF Display";
+    font-weight: 500;
+    src: url("https://sf.abarba.me/SF-UI-Display-Medium.otf");
+}
+
+/** Regular */
+@font-face {
+    font-family: "SF Display";
+    font-weight: 400;
+    src: url("https://sf.abarba.me/SF-UI-Display-Regular.otf");
+}
+
+/** Semibold */
+@font-face {
+    font-family: "SF Display";
+    font-weight: 600;
+    src: url("https://sf.abarba.me/SF-UI-Display-Semibold.otf");
+}
+
+/** Thin */
+@font-face {
+    font-family: "SF Display";
+    font-weight: 300;
+    src: url("https://sf.abarba.me/SF-UI-Display-Thin.otf");
+}
+
+/** Ultralight */
+@font-face {
+    font-family: "SF Display";
+    font-weight: 100;
+    src: url("https://sf.abarba.me/SF-UI-Display-Ultralight.otf");
+}
+
+/*---------------------------------------------------------------------------*
+ * SF UI Text
+ *---------------------------------------------------------------------------*/
+
+/** Bold */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 700;
+    src: url("https://sf.abarba.me/SF-UI-Text-Bold.otf");
+}
+
+/** Bold Italic */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 700;
+    font-style: italic;
+    src: url("https://sf.abarba.me/SF-UI-Text-BoldItalic.otf");
+}
+
+/** Heavy */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 800;
+    src: url("https://sf.abarba.me/SF-UI-Text-Heavy.otf");
+}
+
+/** Heavy Italic */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 800;
+    font-style: italic;
+    src: url("https://sf.abarba.me/SF-UI-Text-HeavyItalic.otf");
+}
+
+/** Light */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 200;
+    src: url("https://sf.abarba.me/SF-UI-Text-Light.otf");
+}
+
+/** Light Italic */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 200;
+    font-style: italic;
+    src: url("https://sf.abarba.me/SF-UI-Text-LightItalic.otf");
+}
+
+/** Medium */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 500;
+    src: url("https://sf.abarba.me/SF-UI-Text-Medium.otf");
+}
+
+/** Medium Italic */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 500;
+    font-style: italic;
+    src: url("https://sf.abarba.me/SF-UI-Text-MediumItalic.otf");
+}
+
+/** Regular */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 400;
+    src: url("https://sf.abarba.me/SF-UI-Text-Regular.otf");
+}
+
+/** Regular Italic */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 400;
+    font-style: italic;
+    src: url("https://sf.abarba.me/SF-UI-Text-RegularItalic.otf");
+}
+
+/** Semibold */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 600;
+    src: url("https://sf.abarba.me/SF-UI-Text-Semibold.otf");
+}
+
+/** Semibold Italic */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 600;
+    font-style: italic;
+    src: url("https://sf.abarba.me/SF-UI-Text-SemiboldItalic.otf");
+}
+
+/** Ultrathin */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 100;
+    src: url("https://sf.abarba.me/SF-UI-Text-Ultrathin.otf");
+}
+
+/** Ultrathin Italic */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 100;
+    font-style: italic;
+    src: url("https://sf.abarba.me/SF-UI-Text-UltrathinItalic.otf");
+}
+
+/*---------------------------------------------------------------------------*
+ * SF Mono
+ *---------------------------------------------------------------------------*/
+
+/** Bold */
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 700;
+    src: url("https://sf.abarba.me/SFMono-Bold.otf");
+}
+
+/** Bold Italic */
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 700;
+    font-style: italic;
+    src: url("https://sf.abarba.me/SFMono-BoldItalic.otf");
+}
+
+/** Heavy */
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 800;
+    src: url("https://sf.abarba.me/SFMono-Heavy.otf");
+}
+
+/** Heavy Italic */
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 800;
+    font-style: italic;
+    src: url("https://sf.abarba.me/SFMono-HeavyItalic.otf");
+}
+
+/** Light */
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 200;
+    src: url("https://sf.abarba.me/SFMono-Light.otf");
+}
+
+/** Light Italic */
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 200;
+    font-style: italic;
+    src: url("https://sf.abarba.me/SFMono-LightItalic.otf");
+}
+
+/** Medium */
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 500;
+    src: url("https://sf.abarba.me/SFMono-Medium.otf");
+}
+
+/** Medium Italic */
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 500;
+    font-style: italic;
+    src: url("https://sf.abarba.me/SFMono-MediumItalic.otf");
+}
+
+/** Regular */
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 400;
+    src: url("https://sf.abarba.me/SFMono-Regular.otf");
+}
+
+/** Regular Italic */
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 400;
+    font-style: italic;
+    src: url("https://sf.abarba.me/SFMono-RegularItalic.otf");
+}
+
+/** Semibold */
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 600;
+    src: url("https://sf.abarba.me/SFMono-Semibold.otf");
+}
+
+/** Semibold Italic */
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 600;
+    font-style: italic;
+    src: url("https://sf.abarba.me/SFMono-SemiboldItalic.otf");
+}
+
+body {
+    font-family: "SF Display";
+    background-color: #F5F5F6 !important;
+}
+
+#index-body {
+    background-color: #e6ffff60 !important;
+}
+
+div.sticky-top, .list-group-item {
+    background-color: #F5F5F6 !important;
+}
+
+.toggle.active {
+    background-color: #b3e5fc !important;
+    border-color: rgba(0,0,0,.125); !important;
+    color: black;
+}
+
+/* End of San Francisco fonts */
+
+.logo {
+    width: 5em;
+}
+
+.logoText {
+    font-size: 4em;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.logocolumn {
+    text-align: center;
+}
+
+#logoRow {
+    height: 15em;
+}
+
+.contentRow {
+    height: 10em;
+}
+
+.optionRow {
+    text-align: center;
+}
+
+.optionRow>h2 {
+   color: #707070;
+   font-size: 1.2em;
+}
+
+.optionRow>h1 {
+    font-size: 1.5em;
+ }
+
+ .signUpButton {
+    border-color: #0062cc;
+    color: #0062cc;
+ }
+
+ .signUpButton:hover {
+    border-color: #0062cc;
+    background-color: #0062cc;
+    color: #ffffff;
+ }
+
+ .startPageContainer {
+    padding-top: 14px;
+ }
+
+#head-bar {
+    height: 10%;
+}
+
+#cofig-button {
+    height: 1.65em;
+    width: 1.65em;
+    border-radius: 50% !important;
+    padding: 0.5%;
+    color: #000;
+}
+
+.config-icon {
+    font-size: 160% !important;
+}
+
+.restaurant-row {
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    height: 7em;
+}
+
+.restaurant-image {
+    height: 6.9em;
+    width: 100%;
+    object-fit: cover;
+}
+
+#foryou-title {
+    padding-top: 12px;
+}
+
+#top-area {
+    background-color: rgba(255, 255, 255, 1.0);
+    padding-top: 1.15em;
+}
+
+#bottom-area {
+    visibility: hidden;
+    text-align: center;
+}
+
+.menu-configuration {
+    margin-top: 10px;
+}
+
+#bottom-bar {
+    margin-bottom: 0.75em;
+    margin-top: 0.75em;
+    margin-left: -0.85em;
+}
+
+#shopping-button {
+    height: 100%;
+    width: 100%;
+}
+
+#shopping-icon {
+    font-size: 1.5em !important;
+}
+
+.shopping-counter:after {
+    position: absolute;
+    right: 10%;
+    top: 8%;
+    content: attr(data-count);
+    font-size: 40%;
+    padding: 0.2em;
+    border-radius: 50%;
+    line-height: 1em;
+    color: white;
+    background: red;
+    text-align: center;
+    min-width: 1em;
+    height: 1.5em;
+    width: 1.5em;
+    font-family: 'SF Display';
+}
+
+#restrictions-row {
+    max-height: 40em;
+    margin-bottom: 1em;
+    overflow: scroll;
+}
+
+.restriction-image {
+    height: 2em;
+    object-fit: cover;
+}
+
+.order-now {
+    font-family: 'SF Display';
+    -webkit-box-shadow: 10px -3px 14px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px -3px 14px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px -3px 14px -8px rgba(0,0,0,0.75);
+    /* background-color: #2e7d32; */
+    background-color: #75a478;
+    color: #fff;
+}
+
+.order-now a {
+    color: #fff;
+}
+
+.order-now-text {
+    font-size: 1.7em !important;
+    font-weight: bold;
+}
+.list-menu {
+    margin-top: 5px;
+    text-align: center;
+}
+.top-menu-item {
+    border: 0px;
+}
+.page-title {
+    text-align: center;
+    font-size: 3em;
+}
+
+.page-title-alimentaryRestrictionsInformation {
+    text-align: left;
+}
+.sign-in-up-text {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.header-main {
+    width: 100%;
+}
+.menu-cog {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 0;
+    width: 13%;
+}
+.image-rest {
+    padding-right: 0px;
+    padding-left: 4px;
+}
+
+.search-restriction {
+    padding-left: 1em;
+}
+.restriction-title {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-title-alimentaryRestrictionsInformation img {
+    height: 0.9em;
+    margin-top: -7px;
+}
+
+.toggle {
+    cursor: pointer;
+}
+
+.infoBox {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #d7ffd9;
+    padding: 7px 30px;
+    width: 100%;
+    opacity: 0.9;
+}
+
+/* Apply colors */
+
+/*
+Primary: #82b3c9 (blue-ish)
+Secundary: #a5d6a7 (green-ish)
+*/
+
+.btn-default,
+.btn-default:hover,
+.btn-default:active,
+.btn-default:visited,
+.btn-default:focus,
+.btn-outline-primary,
+.btn-outline-primary:hover,
+.btn-outline-primary:active,
+.btn-outline-primary:visited,
+.btn-outline-primary:focus {
+    border-color: #82b3c9 !important;
+    color: #82b3c9 !important;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #82b3c9 !important;
+    border-color: #82b3c9 !important;
+}
+
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-default:focus,
+.btn-default.focus,
+.form-control:focus {
+    box-shadow: 0 0 0 3px #e6ffff !important;
+}
+
+a {
+    color: #82b3c9 ;
+}
+.alimentary-restrictions-header {
+    padding-top:0px !important;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 0px;
+}
+.head-alimentary-restrictions {
+    height: auto !important;
+}
+.conf-back {
+    padding-left: 23px;
+    padding-top: 17px;
+}
+
+.maybelater{
+  color:#82b3c9;
+}
+
+.right-rest-image {
+    border-bottom-right-radius: calc(.25rem - 1px);
+    border-bottom-left-radius: calc(9.25rem - 1px);
+}
+
+.search {
+    border-bottom-right-radius: calc(1.5rem - 1px);
+    border-top-right-radius: calc(1.5rem - 1px);
+    border-bottom-left-radius: calc(1.5rem - 1px);
+    border-top-left-radius: calc(1.5rem - 1px);
+    background-color: white;
+}
+
+.for_you {
+  font-size: 2.2em;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+
+.page-title-sign{
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 20px
+}

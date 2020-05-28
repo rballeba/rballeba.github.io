@@ -1,0 +1,87 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>For you - Soya</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+
+<body>
+    <div id ="container-main" class="container">
+        <div class="sticky-top" id="top-area">
+            <div class="row align-items-center" id="head-bar">
+                <div class="col-12">
+                    <table class="header-main">
+                        <tr>
+                            <td class="menu-cog">
+                                <span>
+                                    <a href="./Configuration.html" id="cofig-button">
+                                        <i class="fa fa-bars config-icon"></i>
+                                    </a>
+                                </span>
+                            </td>
+                            <td>
+                                <input id="restaurant-search" class="form-control search" type="text" placeholder="Search restaurant" aria-label="Search restaurant">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="row align-items-center" id="foryou-title">
+                <div class="col-12 text-truncate">
+                    <h1 class="for_you">For you</h1>
+                </div>
+            </div>
+        </div>
+        <!-- To add new restaurants, create the corresponding files in img/restaurants, e.g. udon_logo.png and udon_food.jpg for "udon"
+            then, add the name to the data-values attribute below -->
+        <span id="restaurants" class="row justify-content-center" data-variable="restaurant" data-values="udon tagliatella teresa telemaki tapatapa canroca 4gats oliva caffe ugarit">
+            <div class="card col-md-5 restaurant-row" data-name="${restaurant}">
+                <a class="row" href="404.html">
+                    <div class="col-4">
+                        <img src="./img/restaurants/${restaurant}_logo.png" class="card-img restaurant-image" alt="${restaurant}">
+                    </div>
+                    <div class="col-8 image-rest">
+                        <img src="./img/restaurants/${restaurant}_food.jpg" class="card-img restaurant-image right-rest-image " alt="${restaurant} food">
+                    </div>
+                </a>
+            </div>
+        </span>
+        <span id="restaurant-no-match">No restaurants match your query.</span>
+        <!--Order now hidden menu-->
+        <a aria-label="Order now" id="shopping-button" href="#">
+            <div class="row fixed-bottom align-items-center order-now" id="bottom-area">
+                <div class="col-12" id="bottom-bar">
+                    <span id="shopping-icon">
+                        <i class="fa fa-stack fa-shopping-cart shopping-counter" data-count="4"></i>
+                    </span>
+                    <span class ="order-now-text">Order now!</span>
+                </div>
+            </div>
+        </a>
+    </div>
+    <!-- --------------Scripts loading ---------------------------- -->
+    <!-- JQuery and Popper imports-->
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <!-- Bootstrap javascript -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/commonFunctions.js" ></script> <!-- Common functions implemented on Javascript -->
+    <script src="./js/foryou.js" ></script>
+    <script src="./data/restaurants.js" ></script>
+</body>
+
+</html>

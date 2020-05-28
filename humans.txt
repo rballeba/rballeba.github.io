@@ -1,0 +1,15 @@
+# TEAM
+
+    Rubén Ballester
+    Manuel Lecha
+    Oriol Rabasseda
+    Xavier Ripoll
+
+# THANKS
+
+    Mireia Ribera
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
